@@ -9,7 +9,7 @@
 // Output the HTML strings with classes to the DOM that you can style with CSS.
 // Refactor "makeFrontMessage" to return something more elaborate.
 
-const CardMaker = function(cardCover, cardSentence, cardLine){
+function CardMaker(cardCover, cardSentence, cardLine){
     this.makeFrontMessage = `<h2>${cardCover}</h2>`,
     this.makeInsideMessages = `<p>${cardSentence}</p><p class="cardLine">${cardLine}</p>`
     }; 
